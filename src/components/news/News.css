@@ -1,0 +1,22 @@
+.news {
+    max-width: 400px;
+}
+.news-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.news-nav__item a {
+    color: #0487ac;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.news-list__item {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
