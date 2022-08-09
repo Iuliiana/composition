@@ -1,0 +1,8 @@
+.search-nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar-input {
+    width: 70%;
+}

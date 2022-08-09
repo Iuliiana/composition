@@ -1,0 +1,24 @@
+.currency {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.currency ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.currency__item {
+    font-weight: bolder;
+}
+
+.currency__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.currency__link-more {
+    display: block;
+    align-self: center;
+}

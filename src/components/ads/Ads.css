@@ -1,0 +1,11 @@
+.ads__img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.ads__title {
+    font-size: 2rem;
+    color: #0487ac;
+    font-weight: bolder;
+}

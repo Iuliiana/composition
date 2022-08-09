@@ -9,18 +9,22 @@ const NewsNavigation = (props) => {
     const {newsNav} = props;
 
     return (
-        <nav className="news-nav">
-            {newsNav.map((news) => {
-                return (
-                    <LiItemLink key={news.id}
-                                liItemClass="news-nav__item"
-                                linkClass="news-nav__link"
-                                linkHref={news.news_link}
-                                linkText={news.title}>
-                    </LiItemLink>
-                )
-            })}
-        </nav>
+        <>
+            <nav className="news-nav">
+                {newsNav.map((news) => {
+                    return (
+                        <LiItemLink key={news.id}
+                                    liItemClass="news-nav__item"
+                                    linkClass="news-nav__link"
+                                    linkHref={news.news_link}
+                                    linkText={news.title}>
+                        </LiItemLink>
+                    )
+                })}
+            </nav>
+            <span className="news-nav__time">31 июля, среда 02:32</span>
+        </>
+
     )
 }
 

@@ -1,0 +1,16 @@
+.widgets {
+    clear: both;
+}
+.widgets-container {
+    width: 33.33333%;
+    float: left;
+}
+
+.icon-play {
+    background-image: url('https://pp.userapi.com/c848520/v848520433/fb895/ySM0ePobMIo.jpg?ava=1');
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
